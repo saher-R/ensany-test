@@ -1,0 +1,467 @@
+@import url("https://fonts.googleapis.com/css2?family=Almarai:wght@300;400;500;700;800;900&family=Yanone+Kaffeesatz:wght@200;300;400;500;600;700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap");
+
+html {
+  font-size: 16px;
+  scroll-behavior: smooth;
+  font-family: "Almarai", sans-serif;
+  /* font-family: 'Yanone Kaffeesatz', sans-serif; */
+  /**/
+  /* font-family: "Poppins", sans-serif; */
+}
+
+body {
+  background-color: #f2f2f2 !important;
+  background-color: #f9f9f9 !important;
+  background: url("../assets/floral-bg.png");
+  overflow-x: hidden !important;
+  /* min-height: 10000px; */
+  /* width: 100vw; */
+  /* overflow: auto!important; */
+}
+
+/* @media (max-width:500px) {
+  body{
+    width: 100vh;
+
+  }
+} */
+
+/******************************************/
+/******************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-overflow: ellipsis !important;
+  word-wrap: break-word;
+  word-break: break-word;
+  transition: 0.22s;
+}
+
+img {
+  width: 80px;
+  user-select: none;
+  pointer-events: none;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block !important;
+  color: #000;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  border-radius: 4px !important;
+  /* background-color: var(--Primary-lite-color); */
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  font-size: 1.15rem !important;
+  cursor: pointer;
+}
+
+input {
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000;
+}
+
+*
+
+/* :not(p, input, textarea)
+   its not working!!
+*/
+  {
+  text-transform: capitalize;
+}
+
+*::placeholder {
+  text-transform: capitalize;
+}
+
+p,
+input,
+textarea {
+  text-transform: none;
+}
+
+/******************************************/
+/******************************************/
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box !important;
+  text-overflow: ellipsis !important;
+}
+
+img {
+  width: 80px;
+}
+
+a {
+  text-decoration: none !important;
+  display: inline-block !important;
+  color: #000;
+  min-width: fit-content !important;
+}
+
+li {
+  list-style: none;
+}
+
+button,
+input {
+  border: 0;
+  outline: 0;
+  padding: 8px 20px;
+  border-radius: 4px !important;
+  background-color: var(--Primary-lite-color);
+  color: #fff;
+  text-shadow: 0 0 1px #000;
+  font-size: 1.15rem !important;
+  cursor: pointer;
+}
+
+input {
+  text-shadow: none;
+  font-weight: 400;
+  font-size: 1rem;
+  color: #000;
+  background-color: #fff;
+}
+
+/* For Container. */
+.container {
+  --bs-gutter-x: 1.5rem;
+  --bs-gutter-y: 0;
+  width: 100%;
+  padding-left: calc(var(--bs-gutter-x) * 0.5);
+  padding-right: calc(var(--bs-gutter-x) * 0.5);
+  margin-left: auto;
+  margin-right: auto;
+}
+
+@media (min-width: 576px) {
+  .container {
+    max-width: 540px;
+  }
+}
+
+@media (min-width: 768px) {
+  .container {
+    max-width: 720px;
+  }
+}
+
+@media (min-width: 992px) {
+  .container {
+    max-width: 960px;
+  }
+}
+
+@media (min-width: 1200px) {
+  .container {
+    max-width: 1140px;
+  }
+}
+
+@media (min-width: 1400px) {
+  .container {
+    max-width: 1320px;
+  }
+}
+
+/* 
+ */
+@media (max-width: 660px) {
+  html {
+    font-size: 14px;
+  }
+}
+
+/* 
+ */
+/*  */
+/* 
+ */
+/*  */
+/* 
+ */
+/*  */
+/* 
+ */
+/*  */
+.main-btn--- {
+  padding: 11.5px 43px;
+  /* background-color: var(--Primary-color); */
+  background-color: var(--Socndary-color);
+  border-radius: 30px;
+  color: #fff;
+  transition: 0.3s;
+  border: 0;
+  /* border-bottom: 5px solid var(--Primary-dark-color); */
+  font-weight: 600;
+  /* position: relative; */
+  display: flex !important;
+  gap: 10px !important;
+  align-items: center;
+}
+
+/* .main-btn---::after {
+  content: "";
+  position: absolute;
+  bottom: -4px;
+  left: 0;
+  width: 100%;
+  height: 8px;
+  background-color: var(--Primary-dark-color);
+  border-bottom-left-radius: 3px;
+  border-bottom-right-radius: 3px;
+  transition: 0.3s;
+  z-index: -1;
+} */
+.main-btn---:hover {
+  /* background-color: var(--Primary-dark-color); */
+  background-color: var(--Socndary-dark-color);
+}
+
+/* .main-btn---:hover::after {
+  opacity: 0;
+  transform: scaleY(0);
+  transform-origin: top;
+} */
+
+/*------------------------------------------------------------------*/
+/* general-code */
+.main-title {
+  font-size: 2.1rem;
+  font-weight: 400;
+  padding: 25px;
+  padding-bottom: 30px;
+  text-align: center !important;
+  /* position: relative; */
+  margin-bottom: 11px;
+}
+
+/* .main-title::after {
+  content: "";
+  position: absolute;
+  bottom: 25px;
+  left: 50%;
+  transform: translateX(-50%);
+  width: 60px;
+  height: 2px;
+  background-color: var(--Primary-color);
+  border-radius: 2px;
+} */
+.title-description {
+  padding-bottom: 20px;
+  text-align: center;
+}
+
+/* Loader */
+.lds-circle {
+  display: inline-block;
+  transform: translateZ(1px);
+  background: #000009b0;
+  width: 100vw;
+  height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 4px;
+  flex-direction: column-reverse;
+  position: fixed;
+  top: 0;
+  z-index: 1001;
+  animation: lds-circle-opacity 0.3s;
+}
+
+.lds-circle img {
+  filter: drop-shadow(20px -45px 0px #ffffff25);
+  width: 115px;
+}
+
+.lds-circle>div {
+  display: inline-block;
+  width: 85px;
+  height: 75px;
+  margin: 8px;
+  border-radius: 50%;
+  background: #d9d9d9;
+  border: 4px solid #ddd;
+  animation: lds-circle 3s cubic-bezier(0, 0.2, 0.8, 1) infinite;
+  position: relative;
+}
+
+.lds-circle>div::after {
+  content: "";
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%);
+  width: 100%;
+  height: 20px;
+  border-radius: 8px;
+  background-color: #5a944a;
+  animation: the-div-loader 0.85s infinite;
+}
+
+@keyframes lds-circle {
+
+  0%,
+  100% {
+    animation-timing-function: cubic-bezier(0.5, 0, 1, 0.5);
+  }
+
+  0% {
+    transform: rotateY(0deg);
+  }
+
+  50% {
+    transform: rotateY(1800deg);
+    animation-timing-function: cubic-bezier(0, 0.5, 0.5, 1);
+  }
+
+  100% {
+    transform: rotateY(3600deg);
+  }
+}
+
+@keyframes the-div-loader {
+  0% {
+    width: 0%;
+  }
+
+  50% {
+    width: 84%;
+  }
+
+  100% {
+    width: 0%;
+  }
+}
+
+@keyframes lds-circle-opacity {
+  0% {
+    opacity: 0;
+    scale: 0.35;
+  }
+}
+
+/* Scroll */
+::-webkit-scrollbar {
+  width: 11px;
+}
+
+::-webkit-scrollbar-track {
+  border-radius: 3px;
+  background: #ececec;
+  border-top: 4px solid #ddd;
+  border-bottom: 4px solid #ddd;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.08);
+  /* -webkit-box-shadow: inset 0 0 18px rgba(0, 0, 0, 0.342); */
+}
+
+::-webkit-scrollbar-thumb {
+  border-radius: 3px;
+  background: #bebebe;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.08);
+}
+
+::-webkit-scrollbar-thumb:horizontal:hover,
+::-webkit-scrollbar-thumb:vertical:hover {
+  background: #5553536b;
+}
+
+/**********************************/
+.fa-angle-up {
+  scale: 0.73;
+}
+
+/**************************/
+@media (max-width:850px) {
+  .SecondSlider {
+    padding: 30px 80px;
+  }
+
+  .Categories .main-title {
+    padding-top: 8px;
+  }
+
+  .GeneralSec .sec-ninth {
+    padding-top: 50px;
+  }
+
+  .CollectDonations {
+    margin: 18px 0;
+  }
+
+  .OurPartners .content {
+    padding: 5px 0;
+  }
+
+  .OurPartners .content .main-title {
+    padding-top: 0;
+  }
+
+  .WhoWeProvide .content {
+    padding: 50px 0;
+  }
+
+  .CollectDonations .content>* {
+    min-height: unset !important;
+    width: calc(50% - 50px) !important;
+    min-width: unset !important;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+  }
+
+  .CollectDonations .content>*>img {
+    height: unset;
+  }
+}
+
+input[name="datepicker"]+div.datepicker {
+
+  .datepicker-picker {
+    animation: parent-scale-date-amin 0.7s;
+  }
+
+  &,
+  * {
+    animation: scale-date-amin 0.22s;
+  }
+
+  @keyframes scale-date-amin {
+    0% {
+      scale: 0.97;
+      opacity: 0;
+    }
+  }
+
+  @keyframes parent-scale-date-amin {
+    0% {
+      box-shadow: 0 15.5px 18px #0000002a, 0 0 8px #00000026;
+    }
+  }
+
+  .datepicker-picker {
+    padding: 12px;
+    border-radius: 8px;
+    box-shadow: 0 15.5px 14px #00000018, 0 0 8px #00000026;
+  }
+
+  * {
+    font-size: 0.8rem;
+  }
+}
